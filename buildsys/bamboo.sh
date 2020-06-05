@@ -717,7 +717,6 @@ echo B4      $SST_SUITES_TO_RUN
         popd
         ${SST_TEST_SUITES}/testSuite_SiriusZodiacTrace.sh
         ${SST_TEST_SUITES}/testSuite_embernightly.sh
-        ${SST_TEST_SUITES}/testSuite_BadPort.sh
         ${SST_TEST_SUITES}/testSuite_memHierarchy_sdl.sh
         ${SST_TEST_SUITES}/testSuite_memHA.sh
         ${SST_TEST_SUITES}/testSuite_memHSieve.sh
@@ -767,9 +766,7 @@ echo B4      $SST_SUITES_TO_RUN
     ${SST_TEST_SUITES}/testSuite_simpleLookupTableComponent.sh
     ${SST_TEST_SUITES}/testSuite_cacheTracer.sh
     ${SST_TEST_SUITES}/testSuite_miranda.sh
-    ${SST_TEST_SUITES}/testSuite_BadPort.sh
     ${SST_TEST_SUITES}/testSuite_scheduler.sh
-    ${SST_TEST_SUITES}/testSuite_scheduler_DetailedNetwork.sh
 
     # Add other test suites here, i.e.
     # ${SST_TEST_SUITES}/testSuite_moe.sh
